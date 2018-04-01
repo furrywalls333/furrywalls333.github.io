@@ -1,0 +1,832 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Spam Protection by CleanTalk\n"
+"POT-Creation-Date: 2016-11-28 11:54+0500\n"
+"PO-Revision-Date: 2016-11-28 11:59+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: cleantalk.php\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: cleantalk.php:546
+msgid "WordPress spam"
+msgstr "WordPress спам"
+
+#: cleantalk.php:546
+msgid "blocked by"
+msgstr "заблокировано"
+
+#: inc/cleantalk-admin.php:27
+#, php-format
+msgid "has blocked %s spam"
+msgstr "%s спама заблокировано"
+
+#: inc/cleantalk-admin.php:78
+msgid "Failed from timeout. Going to check comments again."
+msgstr "Ошибка по таймауту. Попробовать еще раз?"
+
+#: inc/cleantalk-admin.php:79
+msgid "Added 500 comments"
+msgstr "500 пользователей добавлено"
+
+#: inc/cleantalk-admin.php:80
+msgid "Delete all spam comments?"
+msgstr "Удалить ВСЕ найденные спам-комментарии?"
+
+#: inc/cleantalk-admin.php:81
+msgid "Delete checked comments?"
+msgstr "Удалить отмеченые спам-комментарии?"
+
+#: inc/cleantalk-admin.php:84
+msgid "Find spam-comments"
+msgstr "Найти спам-комментарии"
+
+#: inc/cleantalk-admin.php:85
+msgid "Show spam-comments"
+msgstr "Показать найденые спам-комментарии"
+
+#: inc/cleantalk-admin.php:97
+msgid "Failed from timeout. Going to check users again."
+msgstr "Ошибка по таймауту. Попробовать еще раз?"
+
+#: inc/cleantalk-admin.php:98
+msgid "Failed from timeout. Going to run a new attempt to delete spam users."
+msgstr "Ошибка по таймауту. Попробовать еще раз?"
+
+#: inc/cleantalk-admin.php:99
+msgid "Inserted"
+msgstr "Добавлено"
+
+#: inc/cleantalk-admin.php:100
+msgid "users."
+msgstr "пользователей."
+
+#: inc/cleantalk-admin.php:101
+msgid "Delete all spam users?"
+msgstr "Удалить ВСЕХ найденых спам-пользователей?"
+
+#: inc/cleantalk-admin.php:102
+msgid "Delete checked users?"
+msgstr "Удалить отмеченых спам-пользователей?"
+
+#: inc/cleantalk-admin.php:105
+msgid "Find spam-users"
+msgstr "Найти спам-пользователей"
+
+#: inc/cleantalk-admin.php:106
+msgid "Show spam-users"
+msgstr "Показать спам-пользователей"
+
+#: inc/cleantalk-admin.php:127 inc/cleantalk-admin.php:131
+msgid "CleanTalk settings"
+msgstr "Настройки CleanTalk"
+
+#: inc/cleantalk-admin.php:229
+#, php-format
+msgid "Unable to connect to %s."
+msgstr "Не удалось подключиться к %s"
+
+#: inc/cleantalk-admin.php:343
+msgid "Protection is active"
+msgstr "Защита включена"
+
+#: inc/cleantalk-admin.php:345
+msgid "Advanced settings"
+msgstr "Продвинутые настройки"
+
+#: inc/cleantalk-admin.php:349
+msgid "Access key"
+msgstr "Ключ доступа"
+
+#: inc/cleantalk-admin.php:357 inc/cleantalk-admin.php:683
+msgid "Registration forms"
+msgstr "Регистрации пользователей"
+
+#: inc/cleantalk-admin.php:358
+msgid "Comments form"
+msgstr "Комментарии в блоге"
+
+#: inc/cleantalk-admin.php:359 inc/cleantalk-admin.php:685
+msgid "Contact forms"
+msgstr "Контактные формы"
+
+#: inc/cleantalk-admin.php:360 inc/cleantalk-admin.php:686
+msgid "Custom contact forms"
+msgstr "Произвольные контактные формы"
+
+#: inc/cleantalk-admin.php:361 inc/cleantalk-admin.php:688
+msgid "WooCommerce checkout form"
+msgstr "Форма заказа WooCommerce"
+
+#: inc/cleantalk-admin.php:362
+msgid "Protect external forms"
+msgstr "Защита внешних форм"
+
+#: inc/cleantalk-admin.php:363
+msgid "Protect internal forms"
+msgstr "Защита внутренних форм"
+
+#: inc/cleantalk-admin.php:367
+msgid "buddyPress private messages"
+msgstr "Личные сообщения buddyPress "
+
+#: inc/cleantalk-admin.php:368
+msgid "Don't check trusted user's comments"
+msgstr "Не проверять доверенных пользователей"
+
+#: inc/cleantalk-admin.php:369
+msgid "Automatically delete spam comments"
+msgstr "Автоматически удалять спам-комментарии"
+
+#: inc/cleantalk-admin.php:370
+msgid "Remove links from approved comments"
+msgstr "Удалять ссылки из одобреных комментариев"
+
+#: inc/cleantalk-admin.php:374
+msgid "Protect logged in Users"
+msgstr "Проверять залогиненых пользователей"
+
+#: inc/cleantalk-admin.php:375
+msgid "Use AJAX for JavaScript check"
+msgstr "Использовать AJAX для проверки JavaScript"
+
+#: inc/cleantalk-admin.php:376
+msgid "Check all post data"
+msgstr "Проверять все POST-данные"
+
+#: inc/cleantalk-admin.php:377
+msgid "Set cookies"
+msgstr "Устанавливать куки"
+
+#: inc/cleantalk-admin.php:378
+msgid "Use SSL"
+msgstr "Использовать SSL"
+
+#: inc/cleantalk-admin.php:382
+msgid "Show statistics in admin bar"
+msgstr "Показывать статистику в админбаре"
+
+#: inc/cleantalk-admin.php:383
+msgid "Show All-time counter"
+msgstr "Счетчик за все время"
+
+#: inc/cleantalk-admin.php:384
+msgid "Show 24 hours counter"
+msgstr "24-х часовой счетчик"
+
+#: inc/cleantalk-admin.php:385
+msgid "SpamFireWall counter"
+msgstr "Счетчик SpamFireWall"
+
+#: inc/cleantalk-admin.php:388 inc/cleantalk-admin.php:687
+#: inc/cleantalk-admin.php:1241
+msgid "SpamFireWall"
+msgstr "SpamFireWall"
+
+#: inc/cleantalk-admin.php:389 inc/cleantalk-admin.php:1051
+msgid "Collect details about browsers"
+msgstr "Собирать данные браузера"
+
+#: inc/cleantalk-admin.php:390 inc/cleantalk-admin.php:1215
+msgid "Tell others about CleanTalk"
+msgstr "Рассказать про CleanTalk"
+
+#: inc/cleantalk-admin.php:467 inc/cleantalk-admin.php:482
+#: inc/cleantalk-admin.php:497 inc/cleantalk-admin.php:797
+#: inc/cleantalk-admin.php:830 inc/cleantalk-admin.php:846
+#: inc/cleantalk-admin.php:862 inc/cleantalk-admin.php:878
+#: inc/cleantalk-admin.php:894 inc/cleantalk-admin.php:910
+#: inc/cleantalk-admin.php:929 inc/cleantalk-admin.php:954
+#: inc/cleantalk-admin.php:979 inc/cleantalk-admin.php:999
+#: inc/cleantalk-admin.php:1029 inc/cleantalk-admin.php:1086
+#: inc/cleantalk-admin.php:1106 inc/cleantalk-admin.php:1126
+#: inc/cleantalk-admin.php:1146 inc/cleantalk-admin.php:1166
+#: inc/cleantalk-admin.php:1187
+msgid "Yes"
+msgstr "Да"
+
+#: inc/cleantalk-admin.php:469 inc/cleantalk-admin.php:484
+#: inc/cleantalk-admin.php:499 inc/cleantalk-admin.php:799
+#: inc/cleantalk-admin.php:832 inc/cleantalk-admin.php:848
+#: inc/cleantalk-admin.php:864 inc/cleantalk-admin.php:880
+#: inc/cleantalk-admin.php:896 inc/cleantalk-admin.php:912
+#: inc/cleantalk-admin.php:931 inc/cleantalk-admin.php:956
+#: inc/cleantalk-admin.php:981 inc/cleantalk-admin.php:1001
+#: inc/cleantalk-admin.php:1031 inc/cleantalk-admin.php:1088
+#: inc/cleantalk-admin.php:1108 inc/cleantalk-admin.php:1128
+#: inc/cleantalk-admin.php:1148 inc/cleantalk-admin.php:1168
+#: inc/cleantalk-admin.php:1189
+msgid "No"
+msgstr "Нет"
+
+#: inc/cleantalk-admin.php:470 inc/cleantalk-admin.php:500
+msgid ""
+"Display all-time requests counter in the admin bar. Counter displays number "
+"of requests since plugin installation."
+msgstr ""
+"Отображать счетчик запросов за все время в админ-баре. Счетчик показывает "
+"записи с момента установки."
+
+#: inc/cleantalk-admin.php:485
+msgid ""
+"Display daily requests counter in the admin bar. Counter displays number of "
+"requests of the past 24 hours."
+msgstr ""
+"Отображать 24-х часовой счетчик запросов в админ-баре. Отображает запросы за "
+"последние 24 часа."
+
+#: inc/cleantalk-admin.php:551
+msgid "Since"
+msgstr "От"
+
+#: inc/cleantalk-admin.php:557
+msgid ""
+"All / Allowed / Blocked submissions. The number of submissions is being "
+"counted since CleanTalk plugin installation."
+msgstr "Все / Разрешенные / Запрещенные запросы с момента установки CleanTalk."
+
+#: inc/cleantalk-admin.php:557
+msgid "All"
+msgstr "Все"
+
+#: inc/cleantalk-admin.php:565
+msgid ""
+"Allowed / Blocked submissions. The number of submissions for past 24 hours. "
+msgstr "Разрешенные / Запрещенные запросы за последние 24 часа."
+
+#: inc/cleantalk-admin.php:565
+msgid "Day"
+msgstr "За день"
+
+#: inc/cleantalk-admin.php:571
+msgid ""
+"All / Blocked events. Access attempts regitred by SpamFireWall counted since "
+"the last plugin activation."
+msgstr ""
+"Все / Запрещенные попытки просмотра сайта. Отображет попытки с момента "
+"последней активации плагина."
+
+#: inc/cleantalk-admin.php:576
+msgid ""
+"Allowed / Blocked submissions. The number of submissions is being counted "
+"since "
+msgstr "Разрешенные / Запрещенные попытки."
+
+#: inc/cleantalk-admin.php:583
+msgid "dashboard"
+msgstr "панель управления"
+
+#: inc/cleantalk-admin.php:592 inc/cleantalk-admin.php:598
+#: inc/cleantalk-admin.php:1599 inc/cleantalk-admin.php:1603
+#: inc/cleantalk-admin.php:1624 inc/cleantalk-admin.php:1628
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/cleantalk-admin.php:608 inc/cleantalk-admin.php:780
+msgid "Check comments for spam"
+msgstr "Проверка комментариев"
+
+#: inc/cleantalk-admin.php:618 inc/cleantalk-admin.php:781
+msgid "Check users for spam"
+msgstr "Проверить пользователей на спам"
+
+#: inc/cleantalk-admin.php:627
+msgid "Reset counter"
+msgstr "Сбросить счетчики"
+
+#: inc/cleantalk-admin.php:684
+msgid "Comments forms"
+msgstr "Формы комментариев"
+
+#: inc/cleantalk-admin.php:696
+msgid ""
+"Testing is failed, check settings. Tech support <a target=_blank "
+"href='mailto:support@cleantalk.org'>support@cleantalk.org</a>"
+msgstr ""
+"Ошибка при тестировании работы плагина! Обратитесь в поддержку <a "
+"target=_blank href='mailto:support@cleantalk.org'>support@cleantalk.org</a>"
+
+#: inc/cleantalk-admin.php:734
+#, php-format
+msgid "has blocked <b>%s</b>  spam."
+msgstr "<b>%s</b> спама заблокировано"
+
+#: inc/cleantalk-admin.php:743
+msgid "Click here to get anti-spam statistics"
+msgstr "Щелкните, чтобы получить статистику"
+
+#: inc/cleantalk-admin.php:751
+msgid "Enter the key"
+msgstr "Введите ключ"
+
+#: inc/cleantalk-admin.php:765
+msgid "Get access key manually"
+msgstr "Получить ключ вручную"
+
+#: inc/cleantalk-admin.php:766
+msgid "or"
+msgstr "или"
+
+#: inc/cleantalk-admin.php:767
+msgid "Get access key automatically"
+msgstr "Получить ключ автоматически"
+
+#: inc/cleantalk-admin.php:771
+#, php-format
+msgid "Admin e-mail (%s) will be used for registration"
+msgstr "При регистрации будет использован email администратора (%s)"
+
+#: inc/cleantalk-admin.php:772
+msgid "License agreement"
+msgstr "Лицензионное соглашение"
+
+#: inc/cleantalk-admin.php:777
+msgid "Show the access key"
+msgstr "Показать ключ доступа"
+
+#: inc/cleantalk-admin.php:800
+msgid "WordPress, JetPack, WooCommerce."
+msgstr "WordPress, JetPack, WooCommerce."
+
+#: inc/cleantalk-admin.php:805
+msgid "Forms to protect"
+msgstr "Защищаемые формы"
+
+#: inc/cleantalk-admin.php:809
+msgid "Comments and messages"
+msgstr "Комментарии и сообщения"
+
+#: inc/cleantalk-admin.php:813
+msgid "Data processing"
+msgstr "Обработка данных"
+
+#: inc/cleantalk-admin.php:817
+msgid "Admin bar"
+msgstr "Админ-бар"
+
+#: inc/cleantalk-admin.php:833
+msgid "Remove links from approved comments. Replace it with \"[Link deleted]\""
+msgstr "Удалять ссылки из одобренных сообщений"
+
+#: inc/cleantalk-admin.php:849
+msgid "WordPress, BuddyPress, bbPress, S2Member, WooCommerce."
+msgstr "WordPress, BuddyPress, bbPress, S2Member, WooCommerce."
+
+#: inc/cleantalk-admin.php:865
+msgid ""
+"Contact Form 7, Formidable forms, JetPack, Fast Secure Contact Form, "
+"WordPress Landing Pages, Gravity Forms."
+msgstr ""
+"Contact Form 7, Formidable Forms, Jetpack, Fast Secure Contact Form, "
+"WordPress Landing Pages, Gravity Forms."
+
+#: inc/cleantalk-admin.php:881
+msgid "Anti spam test for any WordPress themes or contacts forms."
+msgstr "Защита от спама любой контактной формы или темы."
+
+#: inc/cleantalk-admin.php:897
+msgid "Anti spam test for WooCommerce checkout form."
+msgstr "Спам тест для формы заказа WooCommerce"
+
+#: inc/cleantalk-admin.php:913
+msgid "Check buddyPress private messages."
+msgstr "Проверять личные сообщения buddyPress "
+
+#: inc/cleantalk-admin.php:932
+#, php-format
+msgid "Delete spam comments older than %d days."
+msgstr "Удалять комментарии старше %d дней."
+
+#: inc/cleantalk-admin.php:957
+msgid ""
+"Show/hide CleanTalk icon in top level menu in WordPress backend. The number "
+"of submissions is being counted for past 24 hours."
+msgstr ""
+"Показывать иконку и счетчики CleanTalk в админ-баре. Счетчик будет "
+"показывать проверки с момента сброса."
+
+#: inc/cleantalk-admin.php:982
+msgid ""
+"Check all POST submissions from website visitors. Enable this option if you "
+"have spam misses on website or you don`t have records about missed spam here:"
+msgstr ""
+"Проверять все POST запросы веб сайта. Включите эту опцию, если испытываете "
+"проблемы с пропуском спама или вы не видите запрещенных запросов здесь:"
+
+#: inc/cleantalk-admin.php:982
+msgid "CleanTalk dashboard"
+msgstr "панель управления CleanTalk"
+
+#: inc/cleantalk-admin.php:982
+msgid "СAUTION! Option can catch POST requests in WordPress backend"
+msgstr ""
+"ВНИМАНИЕ! Опция может перехватывать все POST запросы в панели управления "
+"Wordpress. Отключите, если возникают проблемы/ошибки."
+
+#: inc/cleantalk-admin.php:1002
+msgid ""
+"Options helps protect WordPress against spam with any caching plugins. Turn "
+"this option on to avoid issues with caching plugins."
+msgstr "Данная настройка помогает избежать конфликтов с кеширующими плагинами."
+
+#: inc/cleantalk-admin.php:1002
+msgid "Attention! Incompatible with AMP plugins!"
+msgstr "Внимание! Не совместимо с AMP (Mobile Accelerated Pages) плагинами."
+
+#: inc/cleantalk-admin.php:1032
+msgid "Dont't check comments for users with above"
+msgstr "Не проверять пользователей у которых больше "
+
+#: inc/cleantalk-admin.php:1032
+msgid "comments."
+msgstr "комментариев."
+
+#: inc/cleantalk-admin.php:1052
+msgid ""
+"Checking this box you allow plugin store information about screen size and "
+"browser plugins of website visitors. The option in a beta state."
+msgstr ""
+"Включая эту опцию, Вы разрешаете плагину хранить информацию о размере экрана "
+"и плагинах браузера посетителей. Бета опция."
+
+#: inc/cleantalk-admin.php:1109
+msgid ""
+"Turn this option on to protect forms on your WordPress that send data to "
+"third-part servers (like MailChimp)."
+msgstr ""
+"Включите эту опцию, что бы защитить формы, которые отсылают данные на "
+"сторонние ресурсы, например MailChimp."
+
+#: inc/cleantalk-admin.php:1129
+msgid ""
+"This option will enable protection for custom (hand-made) AJAX forms with "
+"PHP scripts handlers on your WordPress."
+msgstr "Эта опция обеспечит защиту созданных вручную форм, использующих AJAX."
+
+#: inc/cleantalk-admin.php:1149
+msgid ""
+"Turn this option off to deny plugin generates any cookies on website front-"
+"end. This option is helpful if you use Varnish. But most of contact forms "
+"will not be protected by CleanTalk if the option is turned off!"
+msgstr ""
+"Эта опция запретит плагину генерировать Cookie в публичной части сайта. "
+"Может быть полезно, если вы используете плагин Varnish. Большинство форм "
+"буду НЕ защищены если включена эта настройка!"
+
+#: inc/cleantalk-admin.php:1169
+msgid ""
+"Turn this option on to use encrypted (SSL) connection with CleanTalk servers."
+msgstr ""
+"Включите, что бы использовать защищенное SSL подключение к серверам "
+"CleanTalk."
+
+#: inc/cleantalk-admin.php:1190
+msgid ""
+"Turn this option on to check for spam any submissions (comments, contact "
+"forms and etc.) from registered Users."
+msgstr "Включите, чтобы проверять зарегистрированных пользователей."
+
+#: inc/cleantalk-admin.php:1216
+msgid ""
+"Checking this box places a small link under the comment form that lets "
+"others know what anti-spam tool protects your site."
+msgstr ""
+"Включение этой настройки добавит маленькую ссылку под форму комментариев, "
+"которая позволит пользователям узнать о том, какой инструмент вы используете "
+"для защиты."
+
+#: inc/cleantalk-admin.php:1242
+msgid ""
+"This option allows to filter spam bots before they access website. Also "
+"reduces CPU usage on hosting server and accelerates pages load time."
+msgstr ""
+"Эта опция позволяет фильтровать спам-ботов прежде, чем они войдут на сайт. "
+"Также уменьшает загрузку процессора на хостинге и ускоряет время загрузки "
+"страниц."
+
+#: inc/cleantalk-admin.php:1244
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: inc/cleantalk-admin.php:1360
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: inc/cleantalk-admin.php:1376
+msgid "Plugin Homepage at"
+msgstr "Домашняя страница плагина на"
+
+#: inc/cleantalk-admin.php:1377
+msgid "Tech support CleanTalk:"
+msgstr "Техническая поддержка:"
+
+#: inc/cleantalk-admin.php:1377
+msgid "CleanTalk tech forum"
+msgstr "Технический форум CleanTalk"
+
+#: inc/cleantalk-admin.php:1377
+msgid "Use s@cleantalk.org to test plugin in any WordPress form."
+msgstr ""
+"Используйте s@cleantalk.org чтобы проверить плагин в любой форме в WordPress."
+
+#: inc/cleantalk-admin.php:1415
+#, php-format
+msgid "Unable to get Access key automatically: %s"
+msgstr "Невозможно получить ключ автоматически: %s"
+
+#: inc/cleantalk-admin.php:1416
+msgid "Get the Access key"
+msgstr "Получить ключ доступа"
+
+#: inc/cleantalk-admin.php:1421
+#, php-format
+msgid "Please enter Access Key in %s settings to enable anti spam protection!"
+msgstr ""
+"Пожалуйста укажите Ключ доступа в настройках %s для активации защиты от "
+"спама!"
+
+#: inc/cleantalk-admin.php:1435
+#, php-format
+msgid "%s trial period ends, please upgrade to %s!"
+msgstr ""
+"%s заканчивается ознакомительный срок пользования антиспам плагином "
+"CleanTalk, пожалуйста продлите подключение %s."
+
+#: inc/cleantalk-admin.php:1458
+msgid "RENEW ANTI-SPAM"
+msgstr "ПРОДЛИТЬ АНТИСПАМ"
+
+#: inc/cleantalk-admin.php:1459
+#, php-format
+msgid "Please renew your anti-spam license for %s."
+msgstr "Пожалуйста продлите свою антиспам-лицензию на %s."
+
+#: inc/cleantalk-admin.php:1459
+msgid "next year"
+msgstr "следующий год"
+
+#: inc/cleantalk-admin.php:1466
+msgid ""
+"Wrong <a href=\"options-general.php?page=cleantalk\"><b style=\"color: "
+"#49C73B;\">Clean</b><b style=\"color: #349ebf;\">Talk</b> access key</"
+"a>! Please check it or ask <a target=\"_blank\" href=\"https://cleantalk.org/"
+"forum/\">support</a>."
+msgstr ""
+"Не верный <a href=\"options-general.php?page=cleantalk\">ключ доступа <b "
+"style=\"color: #49C73B;\">Clean</b><b style=\"color: #349ebf;\">Talk</b></"
+"a>! Пожалуйста, проверьте ключ или обратитесь в техническую поддержку: <a "
+"target=\"_blank\" href=\"https://cleantalk.org/forum/\">support</a>."
+
+#: inc/cleantalk-admin.php:1606
+msgid "FAQ"
+msgstr "FAQ"
+
+#: inc/cleantalk-admin.php:1607
+msgid "Support"
+msgstr "Поддержка"
+
+#: inc/cleantalk-comments.php:9 inc/cleantalk-comments.php:239
+#: inc/cleantalk-users.php:8 inc/cleantalk-users.php:187
+msgid "Check for spam"
+msgstr "Проверить на спам"
+
+#: inc/cleantalk-comments.php:65
+msgid "Author"
+msgstr "Автор"
+
+#: inc/cleantalk-comments.php:66
+msgid "Comment"
+msgstr "Комментарий"
+
+#: inc/cleantalk-comments.php:67
+msgid "In Response To"
+msgstr "В ответ на"
+
+#: inc/cleantalk-comments.php:97
+#, php-format
+msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
+msgstr "Отправлено <a href=\"%1$s\">%2$s в %3$s</a>"
+
+#: inc/cleantalk-comments.php:99
+msgid "Y/m/d"
+msgstr "d.m.Y"
+
+#: inc/cleantalk-comments.php:109 inc/cleantalk-users.php:124
+msgid "Approve"
+msgstr "Одобрить"
+
+#: inc/cleantalk-comments.php:111 inc/cleantalk-users.php:126
+msgid "Delete"
+msgstr "Удалить"
+
+#: inc/cleantalk-comments.php:126
+msgid "View Post"
+msgstr "Показать пост"
+
+#: inc/cleantalk-comments.php:172
+msgid "Delete all comments from the list"
+msgstr "Удалить все сообщения в списке"
+
+#: inc/cleantalk-comments.php:173 inc/cleantalk-users.php:176
+msgid "Delete selected"
+msgstr "Удалить отмеченные"
+
+#: inc/cleantalk-comments.php:216 inc/cleantalk-users.php:200
+msgid ""
+"There is some differencies between blacklists database and our API "
+"mechanisms. Blacklists shows all history of spam activity, but our API (that "
+"used in spam checking) used another parameters, too: last day of activity, "
+"number of spam attacks during last days etc. This mechanisms help us to "
+"reduce number of false positivitie. So, there is nothing strange, if some "
+"emails/IPs will be not found by this checking."
+msgstr ""
+"Есть некоторые отличия между проверкой через базу данных черных списков и "
+"через механизм API. В черных списках отображается вся история о спам-"
+"активности, но наш API используетс другие механизмы: последний день "
+"активности, количество спам-атак в течение последних дней и т. д. Эти "
+"механизмы помогают нам сократить количество ложных обнаружений. Поэтому, нет "
+"ничего странного, если некоторые письма/IP не будут обнаружены при этой "
+"проверке."
+
+#: inc/cleantalk-comments.php:224
+msgid ""
+"Please wait! CleanTalk is checking all approved and pending comments via "
+"blacklist database at cleantalk.org. You will have option to delete found "
+"spam comments after plugin finish."
+msgstr ""
+"Пожалуйста, подождите! CleanTalk проверяет комментарии по черным спискам на "
+"cleantalk.org. Вы сможете удалить комментарии со спамом после окончания "
+"работы."
+
+#: inc/cleantalk-comments.php:227
+msgid ""
+"Please wait for a while. CleanTalk is deleting spam comments. Comments left: "
+msgstr "Пожалуйста, подождите. CleanTalk удаляет спам-комментарии. Осталось:"
+
+#: inc/cleantalk-comments.php:242
+msgid ""
+"The plugin will check all comments against blacklists database and show you "
+"senders that have spam activity on other websites."
+msgstr ""
+"Пожалуйста, подождите. CleanTalk проверяет комментарии по черным спискам на "
+"cleantalk.org. Вы сможете удалить комментарии со спамом после окончания "
+"работы."
+
+#: inc/cleantalk-comments.php:247
+msgid "Insert comments"
+msgstr "Добавить комментарии"
+
+#: inc/cleantalk-comments.php:412
+#, php-format
+msgid "Total comments %s, checked %s, found %s spam comments."
+msgstr ""
+"Всего комментариев: %s, проверено %s, найдено комментариев со спамом: %s."
+
+#: inc/cleantalk-comments.php:415
+msgid "Please do backup of WordPress database before delete any comments!"
+msgstr ""
+"Пожалуйста, сделайте резервную копию базы данных Wordpress перед удалением "
+"комментариев."
+
+#: inc/cleantalk-public.php:1054 inc/cleantalk-public.php:1111
+#: inc/cleantalk-public.php:1129
+msgid "Spam protection"
+msgstr "Защита от спама"
+
+#: inc/cleantalk-public.php:1326
+#, php-format
+msgid "Registration is approved by %s."
+msgstr "Регистрация одобрена %s."
+
+#: inc/cleantalk-public.php:2014
+msgid "Comment approved. Anti-spam by CleanTalk."
+msgstr "Комментарий одобрен. Антиспам от CleanTalk."
+
+#: inc/cleantalk-public.php:2638
+msgid "Attention, please!"
+msgstr "Внимание!"
+
+#: inc/cleantalk-public.php:2639
+#, php-format
+msgid "\"%s\" plugin error on your site %s:"
+msgstr "\"%s\". Ошибка плагина на вашем сайте %s:"
+
+#: inc/cleantalk-public.php:2641
+#, php-format
+msgid "[%s] %s error!"
+msgstr "[%s] %s ошибка!"
+
+#: inc/cleantalk-users.php:38
+msgid "Please wait for a while. CleanTalk is deleting spam users. Users left: "
+msgstr "Пожалуйста, подождите. CleanTalk удаляет спам-пользователей. Осталось:"
+
+#: inc/cleantalk-users.php:49
+msgid ""
+"Please wait for a while. CleanTalk is checking all users via blacklist "
+"database at cleantalk.org. You will have option to delete found spam users "
+"after plugin finish."
+msgstr ""
+"Пожалуйста, подождите. ClenTalk проверяет всех пользователей по чёрным "
+"спискам на cleantalk.org. У вас появится возможность удалить обнаруженных "
+"спам-пользователей как только плагин закончит."
+
+#: inc/cleantalk-users.php:79
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: inc/cleantalk-users.php:80
+msgid "Name"
+msgstr "Имя"
+
+#: inc/cleantalk-users.php:82
+msgid "Role"
+msgstr "Роль"
+
+#: inc/cleantalk-users.php:83
+msgid "Posts"
+msgstr "Посты"
+
+#: inc/cleantalk-users.php:175
+msgid "Delete all users from list"
+msgstr "Удалить всех пользователей в списке"
+
+#: inc/cleantalk-users.php:179
+msgid "Insert accounts"
+msgstr "Добавить аккаунты"
+
+#: inc/cleantalk-users.php:190
+msgid ""
+"The plugin will check all users against blacklists database and show you "
+"senders that have spam activity on other websites. Just click 'Find spam "
+"users' to start."
+msgstr ""
+"CleanTalk проверит всех пользователей по базе данных черных списков и "
+"покажет вам отправителей со спам-активностью на других сайтах. Просто "
+"нажмите кнопку 'Найти спам-пользователей', чтобы начать."
+
+#: inc/cleantalk-users.php:208
+msgid "Stop deletion"
+msgstr "Остановить удаление"
+
+#: inc/cleantalk-users.php:365
+#, fuzzy, php-format
+msgid "Total users %s, checked %s, found %s spam users"
+msgstr "Всего пользователей: %s, проверено: %s, найдено %s спам-пользователей."
+
+#: inc/cleantalk-users.php:368
+msgid "Please do backup of WordPress database before delete any accounts!"
+msgstr ""
+"Пожалуйста, сделайте резервную копию базы данных Wordpress перед удалением "
+"аккаунтов."
+
+#: inc/cleantalk-widget.php:13
+msgid "CleanTalk Widget"
+msgstr "Виджет CleanTalk"
+
+#: inc/cleantalk-widget.php:16
+msgid "CleanTalk widget"
+msgstr "виджет CleanTalk"
+
+#: inc/cleantalk-widget.php:61
+msgid "Spam blocked"
+msgstr "Спам заблокирован"
+
+#: inc/cleantalk-widget.php:66
+msgid "Title:"
+msgstr "Заголовок:"
+
+#. Plugin Name of the plugin/theme
+msgid "Spam Protection by CleanTalk"
+msgstr "Спам защита CleanTalk"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://cleantalk.org"
+msgstr "http://cleantalk.org"
+
+#. Description of the plugin/theme
+msgid ""
+"Max power, all-in-one, no Captcha, premium anti-spam plugin. No comment "
+"spam, no registration spam, no contact spam, protects any WordPress forms. "
+"Formerly Anti-Spam by CleanTalk."
+msgstr ""
+"Максимальный эффект, все в одном плагине, без Капчи, премиальный анти-спам "
+"плагин. Нет спама в комментариях, регистрациях, контактных формах. Защита "
+"любой формы Wordpress."
+
+#. Author of the plugin/theme
+msgid "СleanTalk <welcome@cleantalk.org>"
+msgstr "СleanTalk <welcome@cleantalk.org>"

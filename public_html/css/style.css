@@ -1,0 +1,906 @@
+
+
+/* ==========================================================================
+   CrossFit Infiltrate
+   ========================================================================== */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Site-wide Fixes to TBS Styles */
+	h3 {
+		margin-top: 0px;
+	}
+
+	a {
+		color: #e53c2e;
+		text-decoration: underline;
+		-webkit-transition: color 0.25s;
+    	-moz-transition: color 0.25s;
+    	-o-transition: color 0.25s;
+    	transition: color 0.25s;
+	}
+
+	a:hover {
+		color: #4d738a;
+	}
+
+	.footer a {
+		color: #fff;
+	}
+
+	body {
+		padding-top: 50px;
+		color: #4d4d4d;
+	}
+
+	.container {
+		padding-right: 0px;
+	}
+
+	#header, #membership-and-joinus, #workout-of-the-day, #home-header {
+		-webkit-box-shadow: inset 0px 0px 15px 5px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    inset 0px 0px 15px 5px rgba(50, 50, 50, 0.75);
+		box-shadow:         inset 0px 0px 15px 5px rgba(50, 50, 50, 0.75);
+	}
+
+/* Fonts */
+	@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+	body {
+		font-family: 'Montserrat', sans-serif;
+	}
+	h1,h2,h3,h4 {
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	h1 {
+		color: #fff;
+		font-size: 60px;
+		margin-top: 10px;
+	}
+	p {
+		font-weight: 500;
+	}
+
+/* Navbar Styles*/
+	.navbar-fixed-top {
+		margin-bottom: 0px;
+		background-color: #e53c2e;
+		border: none;
+		border-radius: 0 0 0 0;
+	}
+
+	  .navbar-brand {
+  		padding-left: 42%;
+  	}
+
+	.navbar-default .navbar-brand {
+		color: #fff;
+	}
+
+	.navbar-default a {
+		color: #ffffff;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	.navbar-nav {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.navbar-default .navbar-nav>.active>a:hover {
+		background-color: #e53c2e;
+		color: inherit;
+		font-weight: 700;
+	}
+	.navbar-default .navbar-nav>.active>a {
+		background-color: #f0f0f0;
+		color: #4d4d4d;
+		font-weight: 700;
+	}
+
+	.navbar-default .navbar-nav li a, .navbar-default .navbar-nav>.active>a {
+		color: #fff;
+		background: #e53c2e;
+	}
+
+	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+		color: inherit;
+	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: none;
+	}
+
+	#navbar-container {
+		padding-left: 0px;
+	}
+
+	.healcode-login-register-text-link {
+    	padding: 10px;
+	}
+	.navbar-right {
+	      padding-top: 14px;
+	         
+	}
+
+/* Header Styles ------------------------------------------------------------*/
+
+	#home-header {
+	  padding: 20em 0;
+	  text-align: center;
+	  background: url("../img/header.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+	#header {
+	  padding: 4em 0;
+	  text-align: center;
+	  background: url("../img/header.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+	#home-header-logo {
+		width: 75%;
+		max-width: 800px;
+	}
+	.header-logo {
+		width: 32em;
+	}
+	.header-logo-lg {
+		width: 48em;
+	}
+	.header-icon i {
+	    color: #ff4337;
+	    font-size: 150% !important;
+	    position: relative;
+	    top: 10px;
+	}
+	.header-icon {
+		position: relative;
+		top: -10px;
+	}
+
+/* Layout Formatting */
+
+.stripe, .featured-stripe {
+	padding: 70px 0;
+}
+
+/* Event Row Styles */
+
+	.event-img {
+		width: 100%;
+		height: auto;
+	}
+
+	#events-section h2, h2 {
+		color: #e53c2e;
+	}
+
+/* Location and Classes Row Styles */
+	#location-and-classes {
+		padding-top: 20px;
+	}
+
+	#location h2 {
+		position: relative;
+	}
+	#location h2:before {
+		background: url(../img/location_icon.png);
+		background-size: auto 33px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		width: 33px;
+		height: 33px;
+		display: block;
+		content: "";
+		position: absolute;
+		left: -40px;
+		top: -1px;
+	}
+	#classes h2 {
+		position: relative;
+	}
+	#classes h2:before {
+		background: url(../img/schedule_icon.png);
+		background-size: auto 33px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		width: 33px;
+		height: 33px;
+		display: block;
+		content: "";
+		position: absolute;
+		left: -40px;
+		top: -1px;
+	}
+
+/* workout-of-the-day cta styles */
+#workout-of-the-day h3 {
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+
+#workout-of-the-day {
+	padding: 15% 0;
+}
+
+/*Bio styles */
+	.bio-image {
+	    margin: 0 auto;
+	    width: 173px;
+	    height: auto;
+	}
+
+	#bio h4, #bio h2 {
+		text-align: center;
+	}
+
+	#bio h4 {
+		font-weight: 500;
+		font-style: italic;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+/* Map */
+	#map_canvas {
+	  height: 300px;
+	}
+	
+
+
+/* Street View No Scroll THing */
+
+
+
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:300px; /* your iframe height */
+   top:300px;  /* your iframe height */
+   margin-top:-300px;  /* your iframe height */
+}
+
+/* Membership */
+	#membership {
+		background-color: #333333;
+		color: #F1F1F2;
+		padding-bottom: 30px;
+		padding-top: 20px;
+	}
+
+	#membership div {
+		padding-top: 10px;
+	}
+
+	#membership li {
+		background-color: #4D4D4D;
+		border: none;
+		margin-bottom: 5px;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+		border-bottom-right-radius: 4px;
+	}
+
+	#membership .list-group-item:hover {
+		background-color: #666666;
+	}
+
+	#membership button {
+		background-color: #e53c2e;
+		color: white;
+		border: none;
+		height: 60px;
+		margin-top: 20px;
+	}
+
+	.price	{
+		font-size: 2em;
+		font-style: bold;
+	}
+
+	#membership p {
+		font-size: .75em;
+		margin-bottom: 0px;
+	}
+	.list-group-item {
+		padding-top: 0px;
+		cursor: pointer;
+	}
+
+	.form-control {
+		background-color: #4D4D4D;
+		border-color: #666666;
+		color: #fff;
+	}
+
+	.input-lg {
+		height: 60px !important;
+	}
+
+	.btn-lg {
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+
+	#membership-option-select {
+		height: 60px;
+		cursor: pointer;
+	}
+
+	#fine-print {
+		padding-top: 30px;
+		color: #666666;
+	}
+
+	.form-control:focus {
+		border-color: #e53c2e;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(229, 60, 46,.6);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(229, 60, 46,.6);
+	}
+
+/* Schedule */
+	#schedule-and-membership {
+		background-color: #F2F2F2;
+		color: #F1F1F2;
+		padding-bottom: 30px;
+		padding-top: 20px;
+	}
+
+	#schedule-and-membership div {
+		padding-top: 10px;
+	}
+
+	#schedule-and-membership li {
+		border: none;
+		margin-bottom: 5px;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+		border-bottom-right-radius: 4px;
+	}
+
+	#schedule-and-membership .price	{
+		font-size: 2em;
+		font-style: bold;
+	}
+
+	#schedule-and-membership h2 {
+		color:	#333333;
+	}
+	#schedule-and-membership p {
+		font-size: .75em;
+		margin-bottom: 0px;
+	}
+	#schedule-and-membership .list-group-item {
+		padding-top: 0px;
+	}
+
+	.schedule-and-membership-odd {
+		background-color: #D3D3D3;
+	}
+
+	.schedule-and-membership-even {
+		background-color: #B3B3B3;
+	}
+
+	.schedule-and-membership-thursday {
+		background-color: #e53c2e;
+	}
+
+	.time {
+		font-size: 14px;
+	}
+
+/* FAQs */
+
+	.panel-default>.panel-heading {
+		background-color: #ffffff;
+		border-color: #ffffff;
+		color: #e53c2e;
+	}
+
+	.panel-default {
+		border-color: #ffffff;
+	}
+
+	.panel {
+		-webkit-box-shadow: 0 1px 1px #ffffff;
+		box-shadow: 0 1px 1px #ffffff;
+	}
+
+	.panel-default>.panel-heading+.panel-collapse .panel-body {
+		border-top-color: #ffffff;
+
+	}
+	
+	div.panel li{
+		margin-bottom:20px;
+		}
+
+/* Contact Us */
+
+	.contactus {
+		background-color: #333333;
+		color: white;
+	}
+
+	.contactus h2 {
+		color: white;
+		text-align: center;
+	}
+
+	.contactus button {
+		background-color: #e53c2e;
+		color: white;
+		border: none;
+		height: 60px;
+		margin-top: 25px;
+	}
+
+	.contactus a {
+		background-color: #e53c2e;
+		color: white;
+		border: none;
+		text-decoration: none;
+	}
+
+	#learn-more {
+		margin: 10px 0 !important;
+	}
+
+	.pull-left {
+	  float: left !important;
+	}
+	.pull-right {
+	  float: right !important;
+	}
+
+	#iju-1 {
+		padding-top: 40px;
+	}
+
+	#iju-2 {
+		padding-bottom: 40px;
+	}
+
+
+/*Learn More Page*/
+
+
+
+
+/* Contact Us */
+
+	.interested-and-joinus {
+		background-color: #333333;
+		color: white;
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	.interested-and-joinus h2 {
+		color: white;
+		text-align: center;
+	}
+
+	.interested-and-joinus button {
+		background-color: #e53c2e;
+		color: white;
+		border: none;
+		height: 60px;
+		margin-top: 40px;
+	}
+
+	.interested-and-joinus a, .event-cta {
+		color: white;
+		border: none;
+		text-decoration: none;
+	}
+	.interested-and-joinus a, .btn-default {
+		background-color: #e53c2e;
+		-webkit-transition: background-color 0.25s;
+    	-moz-transition: background-color 0.25s;
+    	-o-transition: background-color 0.25s;
+    	transition: background-color 0.25s;
+    	text-transform: uppercase;
+    	color: #fff;
+	}
+	.event-cta {
+		background-color: #e53c2e;
+		margin-top: 20px;
+		-webkit-transition: background-color 0.25s;
+    	-moz-transition: background-color 0.25s;
+    	-o-transition: background-color 0.25s;
+    	transition: background-color 0.25s;
+	}
+
+	.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default  {
+		background-color: #e9594d;
+		color: #fff;
+	}
+
+	h2.form-title {
+		text-align:left;
+		padding-left: 51px;
+		position: relative;
+	}
+
+	h2.form-title:before {
+		height: 33px;
+		width: 42px;
+		background: url(../img/mail_icon.png);
+		background-size: 42px 33px;
+		background-repeat: no-repeat;
+		position: absolute;
+		display: block;
+		top: 0px;
+		left: 0px;
+		content: "";
+	}
+
+	/*MC EMBED STYLES*/
+
+	#mc-embed-signup {
+		background-color: #333333;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		color: white;
+	}
+
+	#mc-embed-signup h2 {
+		color: white;
+		text-align: center;
+	}
+
+	#mc-embed-signup button {
+		background-color: #e53c2e;
+		color: white;
+		border: none;
+		margin-top: 40px;
+	}
+
+	#mc-embed-signup a {
+		background-color: #e53c2e;
+		color: white;
+		border: none;
+		text-decoration: none;
+	}
+
+	.contact-message {
+		height: 260px !important;
+	}
+
+/* Workout of the Day Row */
+	#workout-of-the-day {
+		background: url("../img/wod_footer.jpg") no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	#workout-of-the-day h4 {
+		color: #e53c2e;
+		text-align: center;
+		font-weight: 700;
+		-webkit-transition: color 0.25s;
+    	-moz-transition: color 0.25s;
+    	-o-transition: color 0.25s;
+    	transition: color 0.25s;
+	}
+
+	#workout-of-the-day .col-xs-12:hover h4 {
+		color: #fff;
+	}
+
+/* Icon Styles */
+	.icons {
+		height: 26px;
+		margin-top: 24px;
+	}
+	.social-icons {
+		height:	20px;
+		width: 20px;
+		margin-left: 10px;
+		display: inline-block;
+	}
+/* footer */
+
+	.footer {
+		padding: 20px 0;
+		text-align: right;
+		background: #e53c2e;
+	}
+
+	.footer p {
+		color: #fff;
+	}
+	.cfj-logo, .cfk-logo {
+		width: 110px;
+		margin: 0 0px 0 20px;
+		vertical-align: top;
+	}
+	.social-links {
+		float: right;
+		position: relative;
+	}
+
+/* Promo Styles ------------------------------------------------------------*/
+
+	.promo {
+		background: #333333;
+		padding: 4em 0 3.5em 0;
+		margin-bottom: 2em;
+	}
+	.promo h3 {
+		color: #fff;
+		font-size: 36px;
+		text-align: center;
+		margin: 0 auto;
+		max-width: 776px;
+		line-height: 1.3em;
+	}
+
+
+/*-------------------------------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+/* Header Styles */
+	#home-header {
+		background: url("../img/header.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+
+	#header {
+		background: url("../img/header.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+
+	.footer p {
+		text-align: left;
+	}
+
+	#events-section h2 {
+		margin-top: 0;
+	}
+
+	.featured-stripe .col-sm-6 {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.social-icons {
+		position: absolute;
+	}
+
+	.social-icon_01 {
+		bottom: 65px;
+		right: 105px;
+	}
+
+	.social-icon_02 {
+		bottom: 65px;
+		right: 61px;
+	}
+
+	.social-icon_03 {
+		bottom: 65px;
+		right: 15px;
+	}
+
+	.cfj-logo {
+		margin-top: 26px;
+	}
+
+}
+
+/*-------------------------------------------------------------------------------*/
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+/* Header Styles */
+
+	#header {
+		background: url("../img/header.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+	#workout-of-the-day {
+		padding: 8% 0;
+  	}
+	#header {
+		padding: 5% 30%;
+  	}
+ }
+ 
+/* Mobile-Only Center Menu Brand */
+@media (max-width: 1200px) {
+	.featured-stripe {
+  		padding: 50px 30px;
+	}
+}
+
+
+@media (max-width: 768px) {
+  .navbar-brand {
+  	padding-left: 45%;
+  }
+
+  .navbar-right {
+  	   padding-bottom: 19px;
+    padding-top: 5px;
+    background: white;
+  }
+  .navbar-nav li {
+      text-align: center;
+  }
+  .new_reg {
+  	display: none;
+  }
+  .navbar-default .navbar-nav li a, .navbar-default .navbar-nav>.active>a {
+	color: #4d4d4d;
+	background: #fff;
+	margin-bottom: 0px;
+  }
+  .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  	background-color: #fff;
+  }
+  .navbar-default .navbar-nav>.active>a:hover {
+  	background-color: #fff;
+  }
+  .social-links {
+  	float: none;
+  }
+  .social-icons {
+  	position: static;
+  	height: 30px;
+  	width: 30px;
+  	margin-left: 10px;
+  	margin-top: 22px;
+  }
+  .cfj-logo, .cfk-logo {
+  	margin-top: 10px;
+  	vertical-align: middle;
+  }
+  .featured-stripe {
+  	padding: 20px 0px;
+  }
+  #location, #classes {
+	margin-left: 36px;
+  }
+  .stripe {
+  	padding: 10px 0;
+  }
+
+  .footer {
+  	text-align: center;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  	#footer a {
+		padding-left: 44%;
+	}
+
+	.footerlink {
+		padding-left: 0% !important;
+	}
+
+  	#mobile-social-icons {
+		padding-left: 10%;
+	}
+
+}
+
+@media (max-width: 480px) {
+
+	#home-header {
+		padding: 13em 0;
+	}
+
+	.new_reg {
+		display: none !important;
+	}	
+
+	h1 {
+		font-size: 33px;
+	}	
+	.header-icon i {
+		top: 6px;
+	}
+	#header {
+		padding: 3em 0;
+	}
+
+  .navbar-brand {
+  	padding-left: 43%;
+  }
+
+	#footer a {
+		padding-left: 44%;
+	}
+
+	.footerlink {
+		padding-left: 0% !important;
+	}
+
+		#mobile-social-icons {
+		padding-left: 10%;
+	}
+
+}
+
+@media (max-width: 320px) {
+  .navbar-brand {
+  	padding-left: 40%;
+  }
+
+  	#footer a {
+		padding-left: 40%;
+	}
+
+	.footerlink {
+		padding-left: 0% !important;
+	}
+
+	#mobile-social-icons {
+		padding-left: 5%;
+	}
+
+}
+
+/* Subscribe ------------------------------------------------------------*/
+
+#footer-subscribe-form-title.hide {
+	display: none;
+}
+
+#footer-subscribe-form-messages {
+	color: #fff;
+}
+
+#subscribe-form-messages {
+	margin-bottom: 14px;
+}
+
+.footer-subscribe {
+	text-align: left;
+}
+
+.footer-subscribe form input[type='email'],.footer-subscribe form input[type='text'] {
+	padding: 5px 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    width: 135px;
+}
+
+@media only screen and (max-width: 767px){
+	.footer-subscribe {
+		text-align: center;
+	}
+}

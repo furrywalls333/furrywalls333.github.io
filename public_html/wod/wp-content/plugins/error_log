@@ -1,0 +1,2 @@
+[22-Jun-2015 22:40:56 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/corecooperative/public_html/wod/wp-content/plugins/hello.php on line 60
+[27-Feb-2017 16:25:26 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/corecooperative/public_html/wod/wp-content/plugins/hello.php on line 60

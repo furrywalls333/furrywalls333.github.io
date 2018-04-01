@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>CrossFit Infiltrate - Downtown Indianapolis</title>
+  <meta name="description" content="Downtown Inianaplois">
+  <link rel="icon" type="image/ico" href="http://crossfitinfiltrate.com/favicon.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script>
+  function initialize() {
+    var myLatlng = new google.maps.LatLng(39.779682, -86.164187);
+    var mapOptions = {
+      zoom: 12,
+      center: myLatlng,
+      scrollwheel: false,
+    }
+    var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'CrossFit Infiltrate'
+    });
+  }
+  google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+</head>
+<body>
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- NavBar    -->
+    <nav class="navbar-fixed-top navbar-default" role="navigation">
+      <div class="container" id="navbar-container">
+        <div class="navbar-header">
+          <a class="navbar-brand visible-xs" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" href="#">Menu<span class="caret"></span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="learn-more.html">Learn More</a></li>
+            <li><a href="coaches.html">Coaches</a></li>
+            <li><a href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&stype=-7">Schedule</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="wod/">WOD</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://clients.mindbodyonline.com/ASP/home.asp?studioid=179197">Log In</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav><!-- /.nav -->
+
+    <!-- Main Content Body  -->
+    <div class="container-fluid">
+
+      <!-- Header -->
+      <div class="row" id="home-header">
+        <img src="img/header_logo.png" id="home-header-logo" alt="logo">
+        <h1>CrossFit Infiltrate - Home</h1>
+      </div><!-- End Header -->
+
+ <!-- Events Section -->
+      <div class="featured-stripe">
+
+        <div class="row unify" id="events-section">
+<div class="col-lg-8 col-lg-offset-2"><div class="row"><p><br></p><p><br></p><div class="col-sm-6"><img class="event-img" src="http://crossfitinfiltrate.com/img/Infiltrate_10.JPG" alt="event image" width="336" height="228"></div><div class="col-sm-6"><h2><span>Top gym in the USA?</span></h2><p><span>That's right. We were recently named 15th best gym in America by Men's Fitness!</span></p><h2><span>Dropping in?</span></h2><p><span>Simply sign up for any class on the schedule tab and then receive $10 off any shirt when you come.</span></p><h2><span>Free Intro Class!</span></h2><p><span>Thursdays at 6pm and Sundays at 2pm!&nbsp;</span></p><a class="btn btn-default btn-block btn-lg event-cta" title="" href="https://clients.mindbodyonline.com/classic/ws?studioid=179197&amp;stype=-7&amp;sTG=27&amp;sVT=11&amp;sView=week
+  " rel="" target="">Sign Up For Free Intro!</a></div></div></div>
+</div>
+        <!-- Location, Classes, and Map -->
+        <div class="row unify" id="location-and-classes">
+<div class="col-lg-8 col-lg-offset-2"><div class="row"><div id="location" class="col-sm-6"><h2>Location</h2><p>9 On Canal Building<br><span>335 W. 9th Street Suite C<br></span><span>Indianapolis, IN 46202<br><br></span><span>Access the entrance to CrossFit Infiltrate from the canal. Parking is available in the lot above, in the parking lot of the building just south of 9 on Canal (accessed from St. Clair), and in the 9C parking garage.</span></p></div><div id="classes" class="col-sm-6"><h2>Classes</h2><p>We have several different class types including Olymipc and Strength, EXPRESS, kettlebell, Kids, Intro, On Ramp classes, and more!</p><a title="" href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=-7" rel="" target="">See the schedule</a><p><a href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=40">See Membership Options</a></p><p><br></p><h1><br></h1></div></div></div>
+</div>
+
+      </div><!-- END featured stripe -->
+
+      <div class="row" id="map_canvas">
+      </div><!-- End Location, Classes, and Map -->
+      
+         <!-- Street View Row -->
+      <div class="row" >
+      	<div class="overlay" onClick="style.pointerEvents='none'"></div>
+      	<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1474912043249!6m8!1m7!1sfpOKJyAygBwAAAQvvM06Yw!2m2!1d39.77895910293934!2d-86.16498315477736!3f65!4f0!5f0.7820865974627469" width="100%" height="300" frameborder="0" style="border:0; margin-bottom:-5px;" allowfullscreen></iframe>
+      </div>
+		<!-- END Street View Row -->
+
+<!-- Interested Row -->
+<div class="row interested-and-joinus">
+  <div class="col-lg-8 col-lg-offset-2">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>INTERESTED?</h2>
+      </div>
+      <div class="col-sm-5">
+        <a href="learn-more.html" class="btn btn-default btn-block btn-lg" id="learn-more">LEARN MORE</a>
+      </div>
+    </div><!-- End Interested Row -->
+  </div>
+</div>
+  
+<!-- Workout of the Day Row -->
+      <div class="row" id="workout-of-the-day">
+        <a href="http://www.crossfitinfiltrate.com/wod/">
+          <div class="col-xs-12">
+            <h3>Workout of the Day.</h3>
+            <h4>click to see more.</h4>
+          </div>
+        </a> <!-- End Workout of the Day Row -->
+      </div>
+      
+   
+
+
+      <!-- Footer Row -->
+        <div class="row footer">
+          <div class="container">
+            <div class="col-sm-6">
+              <p>
+                <a href="faqs.html" class="footerlink">FAQs</a><br>
+                <a href="mailto:jared@crossfitinfiltrate.com" class="footerlink">Email Us</a><br>
+                Call us: 317.370.3935<br>
+                &copy;2015 Crossfit Infiltrate
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <div class="social-links">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <a href="https://kids.crossfit.com" target="_blank"><img src="img/cf_kids_logo.png" class="cfk-logo" alt="logo"></a>
+                    <a href="http://journal.crossfit.com/start.tpl" target="_blank"><img src="img/cfj-logo.png" class="cfj-logo" alt="logo"></a>
+                  </div>
+                  <div class="col-sm-12">
+                    <a href="http://instagram.com/crossfit_infiltrate" target="_blank"><img src="img/social1.png" class="social-icons social-icon_01" alt="social icon"></a>
+                    <a href="https://twitter.com/CF_Infiltrate" target="_blank"><img src="img/social2.png" class="social-icons social-icon_02" alt="social icon"></a>
+                    <a href="https://www.facebook.com/crossfitinfiltrate" target="_blank"><img src="img/social3.png" class="social-icons social-icon_03" alt="social icon"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Footer Row -->
+        </div>
+
+      </div> <!-- END fluid container -->
+
+
+    <!-- Scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-50203800-4', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <!--Re-Marketing Code-->
+
+<div style="display:none;"> 
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/965590086/?value=0&amp;guid=ON&amp;script=0"/> 
+</div> 
+
+  </body>
+  </html>
