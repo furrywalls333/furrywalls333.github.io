@@ -40,141 +40,282 @@
   <![endif]-->
   <!-- NavBar    -->
   <nav class="navbar-fixed-top navbar-default" role="navigation">
-     <div class="container cushycms" id="navbar-container">
-        <div class="navbar-header cushycms">
-           <a class="navbar-brand visible-xs" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" href="#">Menu<span class="caret"></span></a>
-        </div>
-        <div class="collapse navbar-collapse cushycms" id="bs-example-navbar-collapse-1">
-           <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="learn-more.html">Learn More</a></li>
-              <li><a href="coaches.html">Coaches</a></li>
-              <li><a href="schedule.html">Schedule</a></li>
-              <li><a href="join.html">Join</a></li>
-              <li><a href="wod/">WOD</a></li>
-           </ul>
-           <ul class="nav navbar-nav navbar-right">
-              <li>
-                 <healcode-widget data-type="account-link" data-version="0.2" data-site-id="21566" data-inner-html="Login | Register" data-link-class="healcode-login-register-text-link"></healcode-widget>
-              </li>
-           </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-     </div>
+     <div class="container cushycms" id="navbar-container"><div class="navbar-header cushycms"><a class="navbar-brand visible-xs" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" href="#">Menu</a></div>
+
+<div class="collapse navbar-collapse cushycms" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+	<li><a href="index.html">Home</a></li>
+	<li class="active"><a href="learn-more.html">Learn More</a></li>
+	<li><a href="coaches.html">Coaches</a></li>
+	<li><a href="schedule.html">Schedule</a></li>
+	<li><a href="join.html">Join</a></li>
+	<li><a href="wod/">WOD</a></li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+	<li><healcode-widget data-inner-html="Login | Register" data-link-class="healcode-login-register-text-link" data-site-id="21566" data-type="account-link" data-version="0.2"></healcode-widget></li>
+</ul>
+</div>
+<!-- /.navbar-collapse --></div>
      <!-- /.container-fluid -->
   </nav>
   <!-- /.nav -->
   <!-- Main Content Body  -->
-  <div class="container-fluid cushycms">
+  <div class="container-fluid cushycms"><!-- Subscribe Overlay -->
+<div class="subscribe-me cushycms">
+<h2>We&rsquo;d love to connect. Subscribe to learn more.</h2>
 
-     <!-- Subscribe Overlay -->
-     <div class="subscribe-me cushycms">
-        <h2>We’d love to connect. Subscribe to learn more.</h2>
-        <a href="#close" class="sb-close-btn"><i class="fa fa-times" aria-hidden="true"></i></a>
-        <p>Get a first class free and a special offer.</p>
-        <div id="subscribe-form-messages" class="cushycms"></div>
-        <form id="ajax-subscribe" method="post" action="subscribe.php">
-            <input type="text" id="name-subscribe" name="name" placeholder="Full Name" required>
-           <input type="email" id="email-subscribe" name="email" placeholder="Email" required>
-           <input type="submit" value="Sign up" class="btn btn-default btn-lg">
-        </form>
-        <p style="font-size: 12px; margin-top: 10px;">Your email will not be shared with anyone.</p>
-        <a href="privacy-policy.html">Privacy Policy</a>
-     </div> 
-     
-     <!-- Header -->
-     <div class="row cushycms" id="header">
-        <h1 class="header-icon"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Learn More</h1>
-     </div>
-     <div class="stripe cushycms">
-        <!-- Learn More Explain Row -->
-        <div class="row unify cushycms" id="join-us-explain">
-<div class="col-xs-12 col-lg-8 col-lg-offset-2 cushycms"><h2>Crossfit Infiltrate is the best fitness offering in Downtown Indianapolis.</h2><p>At CrossFit Infiltrate, we believe it's never too late to be something you've never been. But in order to be something you've never been, you're going to have to do something you've never done. The hardest part is taking the first step, that's on you! But once you make the decision, you won't find a more supportive community from top to bottom. We take a wholistic approach to fitness and put proper movement before intensity. Nutrition, sleep, water-intake, mobility, mentality, community, accountability, and connection to our environment are the pillars we use to build a qulity life. Located right on Indy's beautiful canal, we have a new, full-service CrossFit facility open to the public capable of helping you achieve your goals. We have people getting off diabetes medicine, we have people getting their first pull at over 50 years old, we have people trainging for professional sports, and everyting in between. Whatever you're looking for, our classes will challenge you as they are scaled to your level from beginner to advanced!&nbsp;</p></div>
+<p>Get a first class free and a special offer.</p>
+
+<div class="cushycms" id="subscribe-form-messages">&nbsp;</div>
+
+<form action="subscribe.php" id="ajax-subscribe" method="post"><input id="name-subscribe" name="name" placeholder="Full Name" required="" type="text" /> <input id="email-subscribe" name="email" placeholder="Email" required="" type="email" /> <input class="btn btn-default btn-lg" type="submit" value="Sign up" />&nbsp;</form>
+
+<p style="font-size: 12px; margin-top: 10px;">Your email will not be shared with anyone.</p>
+<a href="privacy-policy.html">Privacy Policy</a></div>
+<!-- Header -->
+
+<div class="row cushycms" id="header">
+<h1 class="header-icon">Learn More</h1>
 </div>
-        <!-- End Learn More Row -->
-        <div class="row explain cushycms">
-           <div class="col-sm-12 col-lg-8 col-lg-offset-2 cushycms">
-              <p style="padding-left: 16px;">Click on a question below</p>
-           </div>
-        </div>
-        <div class="row unify cushycms" id="join-us-explain">
-<div class="col-sm-12 col-lg-8 col-lg-offset-2 cushycms"><div id="accordion" class="panel-group"><div class="panel panel-default cushycms"><div class="panel-heading cushycms"><h4 class="panel-title"><a class="collapsed" href="#collapseOne" data-toggle="collapse" data-parent="#accordion"> What is CrossFit? </a></h4></div><div id="collapseOne" class="panel-collapse collapse"><div class="panel-body"><p>CrossFit is a full body workout incorporating high-intensity interval training, weightlifting, plyometrics, endurance, and strongman. Each class or Work Out of the Day (WOD) is different and is taught by an experienced and certified instructor. Designed with functional movement in mind, CrossFit will make you stronger, faster, and most importantly: Fit.</p><p>"The needs of the Olympic athlete and our grandparents differ by degree not kind." We scale the program so that elite athletes and grandmothers can do a variation of the same workout side-by-side and both get a great stimulus. Weights, movements, and reps can all be modified in order to accomplish this. &nbsp;All we need from you is commitment.</p><p>CrossFit is "constantly varied functional movement executed at&nbsp;<em>﻿relative</em>﻿ high intensity."</p></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" href="#collapseTwo" data-toggle="collapse" data-parent="#accordion"> What makes your gym different from others in the area? </a></h4></div><div id="collapseTwo" class="panel-collapse collapse"><div class="panel-body"><p>When you step into our facility, you will see the Infiltrate difference. We have lots of beautiful outdoor space. Pull the rowers out to face the canal as you burn through a WOD. Though our equipment and studio space is of the highest quality, our coaches, members, and community is what really sets us apart. Our workout space was built with CrossFit in mind. We operate three workout areas which allows us to run simultaneous classes such as CrossFit Kids, On Ramp, Kickboxing, and Express classes so there are more options for you to tailor your CrossFit experience to you. Don&rsquo;t have someone to watch your kids while you work out? We offer childcare Monday through Friday at 11am or find a time that CrossFit Kids runs at the same time your class does, and you have a positive and productive child care during that hour.</p><p>The owner is an experienced CrossFit coach and athlete. He has logged thousands of coaching hours and has helped people of all skill levels safely reach their goals, while himself has competed at the highest level in the sport: The CrossFit Games.</p><p>Ultimately it is our care and commitment to you that will separate us. We will listen to your input, and always put the client first.</p></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" href="#collapseThree" data-toggle="collapse" data-parent="#accordion"> How much focus will I get from a coach in your gym? </a></h4></div><div id="collapseThree" class="panel-collapse collapse"><div class="panel-body"><p>We limit class sizes so that you can get the attention you need. During our Intro and On Ramp classes, we are dedicating a lot of individual focus to laying your foundation. We will get to know how you move and be able to help you out as you develop with us.</p><p>Even in the group classes, you can expect specific instruction and coaching. We will always have an eye to make sure everyone is staying safe while at the same time motivating you to push yourself beyond what you thought was possible.</p></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" href="#collapseFour" data-toggle="collapse" data-parent="#accordion"> Is CrossFit safe? </a></h4></div><div id="collapseFour" class="panel-collapse collapse"><div class="panel-body"><p>We can all agree that carelessness is not safe. Now, I should also say that with any physical activity, there&rsquo;s going to be aches and pains along the way. A car that never gets used never needs to go to the mechanic. So, as you begin to become active you may experience some discomfort in the shoulder for example. That doesn&rsquo;t mean that CrossFit caused it, but probably means that the disfunction that was already there is becoming visible because you&rsquo;re starting to use it in CrossFit.</p><p>The list below is the quick track to injury and pain.</p><ul><li>Prioritizing personal records over proper form.</li><li>Being dishonest about limitations.</li><li>Neglecting recovery: active rest, mobilizing, and proper nutrition.</li></ul><p>We will help you as much as we can with these things, but there is also a good deal of responsibility on the individual to maintain their health and safety.</p><p>We will spend sufficient time and energy warming up, strengthening, and securing the joints in our classes.</p></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" href="#collapseFive" data-toggle="collapse" data-parent="#accordion"> Is CrossFit Easy? </a></h4></div><div id="collapseFive" class="panel-collapse collapse"><div class="panel-body">No.</div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" href="#collapseSix" data-toggle="collapse" data-parent="#accordion"> What are the different classes? </a></h4></div><div id="collapseSix" class="panel-collapse collapse"><div class="panel-body"><p><strong>Free Intro Class:</strong> This class happens every <a href="https://clients.mindbodyonline.com/classic/ws?studioid=179197&amp;stype=-7&amp;sTG=27&amp;sVT=11&amp;sView=week&amp;sLoc=0">Thursday at 6pm&nbsp;and Sunday at 2pm</a>. It is completely free. All you need to do is sign up for the class online (see link above); this will take care of our online waiver. This class is one hour and is designed as an opportunity to familiarize yourself with our facility, our coaches, our community, and CrossFit.</p><p><strong>Express Class:</strong> Express Classes are designed to be a bit shorter (45 minutes) and focus on cardio vascular health. Our 11am class offers childcare Monday through Friday. In Express, use CrossFit methodology and functional movements in order to get you in shape. We do not use some of the more technical and complicated movements like handstand push ups or muscle ups, and we don&rsquo;t spend a lot of time on complex barbell movements. We do use a lot of interval training, bodyweight exercise, medicine balls, kettlebell work, rowing, and run/walking. This is not to say you won&rsquo;t get stronger in these classes, but for those not interested in heavy barbell training, this is probably the class for you. Pricing is lower than Regular Classes also due to reduced class availablity. &nbsp;Click <a title="" href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=-7&amp;sTG=23&amp;sVT=6&amp;sView=week" rel="" target="">here</a>&nbsp;to see the Express schedule.</p><p><strong>On Ramp Course:</strong>&nbsp;Everyone's needs are different, and On Ramp allows us further assessment and development of the basic skills needed for our classes.&nbsp;</p><ul><li>We will go over the 9 basic CrossFit movements along with a few others.</li><li>This is a time for you to get even more individual attention as we as coaches, and you as an athlete, assess your abilities.</li><li>It&rsquo;s a way for the body to begin acclimation to new movements and relatively intense exercise.</li><li>Do NOT expect to master these movements in this time. Mastering many of these movements will take weeks, months, and often years.</li><li>DO expect to get the basic knowledge to move forward with more confidence knowing that you can safely ramp up your intensity and accomplish your goals.</li></ul><p><strong>Regular Classes:</strong> Regular Classes, Group Class (typical CrossFit Class,) and Open Gym classes. On Ramp or extensive CrossFit experience is required for these classes. Even in Regular classes, we will scale movements and weights according to individual need, and will always put safety first. See the schedule <a title="" href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=-7&amp;sTG=22&amp;sVT=7&amp;sView=week" rel="" target="">here</a>.</p><p><strong>CrossFit Kids:</strong> <a href="http://crossfitkids.com/about-us/">See their website.</a> This is a great way to build a cohesive family. Why not bring you kids, have them do a workout while you yourself get one in?&nbsp;</p><p><strong>Jiu-jitsu:&nbsp;</strong>﻿We offer no-gi jiu-jitsu <a href="https://clients.mindbodyonline.com/classic/ws?studioid=179197&amp;stype=-7&amp;sView=week&amp;sLoc=0&amp;sTrn=100000015">five times a week</a>, and it is open to all levels. With an instructor with over 10 years of experience, both beginners and advanced practitioners will be challenged while not feeling left behind. This is a great way to develop confidence in self-defense or simply a way to get one of the most effective workouts available.&nbsp;</p><p><strong>﻿Kickboxing:&nbsp;</strong>﻿Kickboxing is another great way to change up your workout and develop a new skill. Don't worry, we won't punch you in the face during your first class.</p></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" href="#collapseSeven" data-toggle="collapse" data-parent="#accordion">What are your Prices and discounts?</a></h4></div><div id="collapseSeven" class="panel-collapse collapse"><div class="panel-body"><ul><li><strong>Regular Class Memberships:</strong><ul><li><span>$99 for&nbsp;</span><a title="" href="http://clients.mindbodyonline.com/classic/ws?studio=CrossFitInfiltrate&amp;stype=40&amp;prodid=116" rel="" target="">8x a month</a></li><li>$119 for&nbsp;<a title="" href="http://clients.mindbodyonline.com/classic/ws?studio=CrossFitInfiltrate&amp;stype=40&amp;prodid=117" rel="" target="">12x a month</a></li><li>$139 for&nbsp;<a title="" href="http://clients.mindbodyonline.com/classic/ws?studio=CrossFitInfiltrate&amp;stype=40&amp;prodid=118" rel="" target="">16x a month</a></li><li>$159 for&nbsp;<a title="" href="http://clients.mindbodyonline.com/classic/ws?studio=CrossFitInfiltrate&amp;stype=40&amp;prodid=119" rel="" target="">unlimited</a></li></ul></li><li><strong>EXPRESS Class Memberships:</strong><ul><li><span>$60 for&nbsp;</span><a href="http://clients.mindbodyonline.com/ws.asp?studio=CrossFitinfiltrate&amp;stype=40&amp;prodid=102">8x a month</a></li><li>$80 for <a href="http://clients.mindbodyonline.com/ws.asp?studio=CrossFitinfiltrate&amp;stype=40&amp;prodid=106">unlimited</a></li></ul></li><li><strong>On Ramp:</strong><ul><li><span>$40 for&nbsp;<a href="https://clients.mindbodyonline.com/classic/ws?studioid=179197&amp;stype=41&amp;sTG=22&amp;prodId=10200">4-Class Package</a></span></li></ul></li></ul><ul><li><strong>Endurance:</strong><ul><li><span>$50 for&nbsp;</span><a href="http://clients.mindbodyonline.com/classic/ws?studioid=179197&amp;stype=41&amp;prodid=10196">10-Class Pass</a></li></ul></li></ul><ul><li><strong><span>Punch Cards:</span></strong><ul><li><span>$45 for&nbsp;</span><a href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=41&amp;prodid=10107">5 session EXPRESS Class</a></li><li>$75 for&nbsp;<a href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=41&amp;prodid=10102">5 session Regular Class</a></li><li>$80 for&nbsp;<a href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=41&amp;prodid=10108">10 session EXPRESS Class</a></li><li>$140 for&nbsp;<a title="" href="https://clients.mindbodyonline.com/classic/ws?studioid=179197&amp;stype=41&amp;sTG=22&amp;prodId=10103" rel="" target="">10 session Regular Class</a></li></ul></li><li><strong>Gift Cards:</strong><ul><li><span>Available in&nbsp;</span><a href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=42">any amount</a></li></ul></li><li><strong>﻿Discounts:</strong><ul><li><span>Email </span><a href="mailto:jared@crossfitinfiltrate.com">Jared</a><span>&nbsp;for information about full-time student, 9 on Canal resident, and military discounts.&nbsp;</span></li></ul></li></ul><div><strong><br></strong></div><div><strong><br></strong></div><div><strong><br></strong></div><div><strong><br></strong></div><div><strong><br></strong></div></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 class="panel-title"><a class="" href="#collapseEight" data-toggle="collapse" data-parent="#accordion">What is your drop in policy?</a></h4></div><div id="collapseEight" class="panel-collapse collapse in"><div class="panel-body">If you're experienced with CrossFit, just sign up for any class you like on our schedule tab! You'll be prompted to pay a drop in fee of $15 and sign our waiver. Once you're here, you'll be able to get $10 off any clothing piece we have in stock. If you'll be here for more than one class, you may want to buy a punch card. All our punch cards are good for one year.</div></div></div></div></div>
+
+<div class="stripe cushycms"><!-- Learn More Explain Row -->
+<div class="row unify cushycms" id="join-us-explain">
+<div class="col-xs-12 col-lg-8 col-lg-offset-2 cushycms">
+<h2>Crossfit Infiltrate is the best fitness offering in Downtown Indianapolis.</h2>
+
+<p>At CrossFit Infiltrate, we believe it&#39;s never too late to be something you&#39;ve never been. But in order to be something you&#39;ve never been, you&#39;re going to have to do something you&#39;ve never done. The hardest part is taking the first step, that&#39;s on you! But once you make the decision, you won&#39;t find a more supportive community from top to bottom. We take a wholistic approach to fitness and put proper movement before intensity. Nutrition, sleep, water-intake, mobility, mentality, community, accountability, and connection to our environment are the pillars we use to build a qulity life. Located right on Indy&#39;s beautiful canal, we have a new, full-service CrossFit facility open to the public capable of helping you achieve your goals. We have people getting off diabetes medicine, we have people getting their first pull at over 50 years old, we have people trainging for professional sports, and everyting in between. Whatever you&#39;re looking for, our classes will challenge you as they are scaled to your level from beginner to advanced!&nbsp;</p>
 </div>
-     </div>
-     <!-- END stripe -->
-     <!-- Interested Row -->
-     <div class="row interested-and-joinus cushycms">
-        <div class="col-md-8 col-md-offset-2 cushycms">
-           <div class="row cushycms">
-              <div class="col-sm-6 cushycms">
-                 <h2>Ready to Go?</h2>
-              </div>
-              <div class="col-sm-5 cushycms">
-                 <a href="join.html" class="btn btn-default btn-block btn-lg" id="learn-more">Join Us</a>
-              </div>
-           </div>
-           <div class="row cushycms">
-              <div class="col-sm-6" cushycms>
-                 <h2>Still Have More Questions?</h2>
-              </div>
-              <div class="col-sm-5 cushycms">
-                 <a href="faqs.html" class="btn btn-default btn-block btn-lg" id="learn-more">SEE FAQS</a>
-              </div>
-           </div>
-        </div>
-     </div>
-     <!-- Workout of the Day Row -->
-     <div class="row" id="workout-of-the-day cushycms">
-        <a href="http://www.crossfitinfiltrate.com/wod/">
-           <div class="col-xs-12 cushycms">
-              <h3>Workout of the Day.</h3>
-              <h4>click to see more.</h4>
-           </div>
-        </a>
-        <!-- End Workout of the Day Row -->
-     </div>
-   <!-- Footer Row -->
-   <div class="row footer cushycms">
-      <div class="container cushycms ">
-         <div class="col-sm-3 cushycms">
-            <p>
-               <a href="faqs.html" class="footerlink">FAQs</a><br>
-               <a href="mailto:hello@crossfitinfiltrate.com" class="footerlink">Email Us</a><br>
-               Call us: 317.550.0565<br>
-               &copy;2017 Crossfit Infiltrate
-            </p>
-         </div>
-           <div class="col-sm-4 cushycms">
-              <div class="footer-subscribe cushycms">
-                 <div id="footer-subscribe-form-messages" class="cushycms"></div>
-                 <form id="ajax-footer-subscribe" method="post" action="subscribe.php">
-                    <p id="footer-subscribe-form-title">Subscribe to our email list</p>
-                    <input type="text" id="footer-subscribe-name" name="name" placeholder="Full Name" required>
-                    <input type="email" id="footer-subscribe-email" name="email" placeholder="Email Address" required>
-                    <input type="submit" value="Sign up" class="btn btn-default btn-sm">
-                 </form>
-                 <a href="privacy-policy.html">Privacy Policy</a>
-              </div>
-           </div>
-         <div class="col-sm-5 cushycms">
-            <div class="social-links cushycms">
-               <div class="row cushycms">
-                  <div class="col-sm-12 cushycms">
-                     <a href="https://kids.crossfit.com" target="_blank"><img src="img/cf_kids_logo.png" class="cfk-logo" alt="logo"></a>
-                     <a href="http://journal.crossfit.com/start.tpl" target="_blank"><img src="img/cfj-logo.png" class="cfj-logo" alt="logo"></a>
-                  </div>
-                  <div class="col-sm-12 cushycms">
-                     <a href="http://instagram.com/crossfit_infiltrate" target="_blank"><img src="img/social1.png" class="social-icons social-icon_01" alt="social icon"></a>
-                     <a href="https://twitter.com/CF_Infiltrate" target="_blank"><img src="img/social2.png" class="social-icons social-icon_02" alt="social icon"></a>
-                     <a href="https://www.facebook.com/crossfitinfiltrate" target="_blank"><img src="img/social3.png" class="social-icons social-icon_03" alt="social icon"></a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- End Footer Row -->
-     </div>
-  </div>
+</div>
+<!-- End Learn More Row -->
+
+<div class="row explain cushycms">
+<div class="col-sm-12 col-lg-8 col-lg-offset-2 cushycms">
+<p style="padding-left: 16px;">Click on a question below</p>
+</div>
+</div>
+
+<div class="row unify cushycms" id="join-us-explain">
+<div class="col-sm-12 col-lg-8 col-lg-offset-2 cushycms">
+<div class="panel-group" id="accordion">
+<div class="panel panel-default cushycms">
+<div class="panel-heading cushycms">
+<h4 class="panel-title"><a class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseOne">What is CrossFit? </a></h4>
+</div>
+
+<div class="panel-collapse collapse" id="collapseOne">
+<div class="panel-body">
+<p>CrossFit is a full body workout incorporating high-intensity interval training, weightlifting, plyometrics, endurance, and strongman. Each class or Work Out of the Day (WOD) is different and is taught by an experienced and certified instructor. Designed with functional movement in mind, CrossFit will make you stronger, faster, and most importantly: Fit.</p>
+
+<p>&quot;The needs of the Olympic athlete and our grandparents differ by degree not kind.&quot; We scale the program so that elite athletes and grandmothers can do a variation of the same workout side-by-side and both get a great stimulus. Weights, movements, and reps can all be modified in order to accomplish this. &nbsp;All we need from you is commitment.</p>
+
+<p>CrossFit is &quot;constantly varied functional movement executed at&nbsp;<em>﻿relative</em>﻿ high intensity.&quot;</p>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">What makes your gym different from others in the area? </a></h4>
+</div>
+
+<div class="panel-collapse collapse" id="collapseTwo">
+<div class="panel-body">
+<p>When you step into our facility, you will see the Infiltrate difference. We have lots of beautiful outdoor space. Pull the rowers out to face the canal as you burn through a WOD. Though our equipment and studio space is of the highest quality, our coaches, members, and community is what really sets us apart. Our workout space was built with CrossFit in mind.&nbsp;</p>
+
+<p>Ultimately it is our care and commitment to you that will separate us. We will listen to your input, and always put the client first.</p>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseThree">How much focus will I get from a coach in your gym? </a></h4>
+</div>
+
+<div class="panel-collapse collapse" id="collapseThree">
+<div class="panel-body">
+<p>We limit class sizes so that you can get the attention you need. During our On Ramp classes, we are dedicating a lot of individual focus to laying your foundation. We will get to know how you move and be able to help you out as you develop with us.</p>
+
+<p>Even in the group classes, you can expect specific instruction and coaching. We will always have an eye to make sure everyone is staying safe while at the same time motivating you to push yourself beyond what you thought was possible.</p>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseFour">Is CrossFit safe? </a></h4>
+</div>
+
+<div class="panel-collapse collapse" id="collapseFour">
+<div class="panel-body">
+<p>We can all agree that carelessness is not safe. Now, I should also say that with any physical activity, there&rsquo;s going to be aches and pains along the way. A car that never gets used never needs to go to the mechanic. So, as you begin to become active you may experience some discomfort in the shoulder for example. That doesn&rsquo;t mean that CrossFit caused it, but probably means that the disfunction that was already there is becoming visible because you&rsquo;re starting to use it in CrossFit.</p>
+
+<p>We will help you as much as we can with these things, but there is also a good deal of responsibility on the individual to maintain their health and safety.</p>
+
+<p>We will spend sufficient time and energy warming up, strengthening, and securing the joints in our classes.</p>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseFive">Is CrossFit Easy? </a></h4>
+</div>
+
+<div class="panel-collapse collapse" id="collapseFive">
+<div class="panel-body">No.</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseSix">What are the different classes? </a></h4>
+</div>
+
+<div class="panel-collapse collapse" id="collapseSix">
+<div class="panel-body">
+<p><strong>Express Class:</strong> Express Classes are designed to be a bit shorter (45 minutes) and focus on cardio vascular health.&nbsp; In Express, use CrossFit methodology and functional movements in order to get you in shape. We do not use some of the more technical and complicated movements like handstand push ups or muscle ups, and we don&rsquo;t spend a lot of time on complex barbell movements. We do use a lot of interval training, bodyweight exercise, medicine balls, kettlebell work, rowing, and run/walking. This is not to say you won&rsquo;t get stronger in these classes, but for those not interested in heavy barbell training, this is probably the class for you.&nbsp;</p>
+
+<p><strong>On Ramp Course:</strong>&nbsp;Everyone&#39;s needs are different, and On Ramp allows us further assessment and development of the basic skills needed for our classes.&nbsp;</p>
+
+<ul>
+	<li>We will go over the 9 basic CrossFit movements along with a few others.</li>
+	<li>This is a time for you to get even more individual attention as we as coaches, and you as an athlete, assess your abilities.</li>
+	<li>It&rsquo;s a way for the body to begin acclimation to new movements and relatively intense exercise.</li>
+	<li>Do NOT expect to master these movements in this time. Mastering many of these movements will take weeks, months, and often years.</li>
+	<li>DO expect to get the basic knowledge to move forward with more confidence knowing that you can safely ramp up your intensity and accomplish your goals.</li>
+</ul>
+
+<p><strong>Regular Classes:</strong> Regular Classes, Group Class (typical CrossFit Class,) and Open Gym classes. On Ramp or extensive CrossFit experience is required for these classes. Even in Regular classes, we will scale movements and weights according to individual need, and will always put safety first. See the schedule <a href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=-7&amp;sTG=22&amp;sVT=7&amp;sView=week" rel="" target="" title="">here</a>.</p>
+
+<p><strong>Jiu-jitsu:&nbsp;</strong>﻿We offer no-gi jiu-jitsu <a href="https://clients.mindbodyonline.com/classic/ws?studioid=179197&amp;stype=-7&amp;sView=week&amp;sLoc=0&amp;sTrn=100000015">five times a week</a>, and it is open to all levels. With an instructor with over 10 years of experience, both beginners and advanced practitioners will be challenged while not feeling left behind. This is a great way to develop confidence in self-defense or simply a way to get one of the most effective workouts available.&nbsp;</p>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseSeven">What are your Prices and discounts?</a></h4>
+</div>
+
+<div class="panel-collapse collapse" id="collapseSeven">
+<div class="panel-body">
+<ul>
+	<li><strong>Regular Class Memberships:</strong>
+
+	<ul>
+		<li>$119 for&nbsp;<a href="http://clients.mindbodyonline.com/classic/ws?studio=CrossFitInfiltrate&amp;stype=40&amp;prodid=117" rel="" target="" title="">12x a month</a></li>
+		<li>$139 for&nbsp;<a href="http://clients.mindbodyonline.com/classic/ws?studio=CrossFitInfiltrate&amp;stype=40&amp;prodid=118" rel="" target="" title="">16x a month</a></li>
+		<li>$159 for&nbsp;<a href="http://clients.mindbodyonline.com/classic/ws?studio=CrossFitInfiltrate&amp;stype=40&amp;prodid=119" rel="" target="" title="">unlimited</a></li>
+	</ul>
+	</li>
+	<li><strong><span>Punch Cards:</span></strong>
+	<ul>
+		<li><span>$45 for&nbsp;</span><a href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=41&amp;prodid=10107">5 session EXPRESS Class</a></li>
+		<li>$75 for&nbsp;<a href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=41&amp;prodid=10102">5 session Regular Class</a></li>
+		<li>$80 for&nbsp;<a href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=41&amp;prodid=10108">10 session EXPRESS Class</a></li>
+		<li>$140 for&nbsp;<a href="https://clients.mindbodyonline.com/classic/ws?studioid=179197&amp;stype=41&amp;sTG=22&amp;prodId=10103" rel="" target="" title="">10 session Regular Class</a></li>
+	</ul>
+	</li>
+	<li><strong>Gift Cards:</strong>
+	<ul>
+		<li><span>Available in&nbsp;</span><a href="http://clients.mindbodyonline.com/ws.asp?studioid=179197&amp;stype=42">any amount</a></li>
+	</ul>
+	</li>
+</ul>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" href="#collapseEight">What is your drop in policy?</a></h4>
+</div>
+
+<div class="panel-collapse collapse in" id="collapseEight">
+<div class="panel-body">If you&#39;re experienced with CrossFit, just sign up for any class you like on our schedule tab! You&#39;ll be prompted to pay a drop in fee of $15 and sign our waiver. Once you&#39;re here, you&#39;ll be able to get $10 off any clothing piece we have in stock. If you&#39;ll be here for more than one class, you may want to buy a punch card. All our punch cards are good for one year.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- END stripe --><!-- Interested Row -->
+
+<div class="row interested-and-joinus cushycms">
+<div class="col-md-8 col-md-offset-2 cushycms">
+<div class="row cushycms">
+<div class="col-sm-6 cushycms">
+<h2>Ready to Go?</h2>
+</div>
+
+<div class="col-sm-5 cushycms"><a class="btn btn-default btn-block btn-lg" href="join.html" id="learn-more">Join Us</a></div>
+</div>
+
+<div class="row cushycms">
+<div class="col-sm-6" cushycms="">
+<h2>Still Have More Questions?</h2>
+</div>
+
+<div class="col-sm-5 cushycms"><a class="btn btn-default btn-block btn-lg" href="faqs.html" id="learn-more">SEE FAQS</a></div>
+</div>
+</div>
+</div>
+<!-- Workout of the Day Row -->
+
+<div class="row" id="workout-of-the-day cushycms">
+<div class="col-xs-12 cushycms">
+<h3><a href="http://www.crossfitinfiltrate.com/wod/">Workout of the Day.</a></h3>
+
+<h4><a href="http://www.crossfitinfiltrate.com/wod/">click to see more.</a></h4>
+</div>
+<!-- End Workout of the Day Row --></div>
+<!-- Footer Row -->
+
+<div class="row footer cushycms">
+<div class="container cushycms ">
+<div class="col-sm-3 cushycms">
+<p><a class="footerlink" href="faqs.html">FAQs</a><br />
+<a class="footerlink" href="mailto:hello@crossfitinfiltrate.com">Email Us</a><br />
+Call us: 317.550.0565<br />
+&copy;2017 Crossfit Infiltrate<br />
+<br />
+&nbsp;</p>
+</div>
+
+<div class="col-sm-4 cushycms">
+<div class="footer-subscribe cushycms">
+<div class="cushycms" id="footer-subscribe-form-messages">&nbsp;</div>
+
+<form action="subscribe.php" id="ajax-footer-subscribe" method="post">
+<p id="footer-subscribe-form-title">Subscribe to our email list</p>
+<input id="footer-subscribe-name" name="name" placeholder="Full Name" required="" type="text" /> <input id="footer-subscribe-email" name="email" placeholder="Email Address" required="" type="email" /> <input class="btn btn-default btn-sm" type="submit" value="Sign up" />&nbsp;</form>
+<a href="privacy-policy.html">Privacy Policy</a></div>
+</div>
+
+<div class="col-sm-5 cushycms">
+<div class="social-links cushycms">
+<div class="row cushycms">
+<div class="col-sm-12 cushycms"><a href="https://kids.crossfit.com" target="_blank"><img alt="logo" class="cfk-logo" src="img/cf_kids_logo.png" /></a> <a href="http://journal.crossfit.com/start.tpl" target="_blank"><img alt="logo" class="cfj-logo" src="img/cfj-logo.png" /></a></div>
+
+<div class="col-sm-12 cushycms"><a href="http://instagram.com/crossfit_infiltrate" target="_blank"><img alt="social icon" class="social-icons social-icon_01" src="img/social1.png" /></a> <a href="https://twitter.com/CF_Infiltrate" target="_blank"><img alt="social icon" class="social-icons social-icon_02" src="img/social2.png" /></a> <a href="https://www.facebook.com/crossfitinfiltrate" target="_blank"><img alt="social icon" class="social-icons social-icon_03" src="img/social3.png" /></a></div>
+</div>
+</div>
+</div>
+</div>
+<!-- End Footer Row --></div>
+</div>
   <!-- END fluid container -->
      <!-- Scripts -->
      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
